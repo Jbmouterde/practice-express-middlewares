@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "DEBUG=practice-express-middlewares:* nodemon ./bin/www"
+    "dev": "SET DEBUG=practice-express-middlewares:* && nodemon ./bin/www"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "dotenv": "~4.0.0",
